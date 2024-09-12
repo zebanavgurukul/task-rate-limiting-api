@@ -8,11 +8,9 @@ Task Logging: Task completions are logged to a file (task_logs.txt) with user ID
 Clustering: The app uses Node.js clustering to scale across multiple CPU cores, making it more resilient and scalable.
 
 # Technologies Used:
-Node.js: JavaScript runtime for building server-side applications.
-Express.js: Framework for creating the REST API.
-Redis: In-memory data structure store used for task queueing.
-Bottleneck: A rate-limiting library to enforce the task rate limits.
-Cluster: Node.js module used to enable multi-core CPU usage for better performance.
-FS Module: Used for logging task completions to a text file.
-dotenv: Library for managing environment variables.
+Node.js: JavaScript runtime for backend development.
+Express.js: Web framework to handle REST API requests.
+Redis: Used for task queueing and management.
+Bottleneck: A rate-limiting library.
+Clustering: Node.js feature for better performance across multiple CPU cores.
 
