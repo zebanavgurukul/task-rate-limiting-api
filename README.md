@@ -24,6 +24,7 @@ Create a .env file in the project root with the following variables:
 - **REDIS_HOST**=*********
 - **REDIS_PORT**=****
 - **PORT**=****
+
 Ensure Redis is installed and running on the specified host and port.
 
 ## Usage
@@ -43,4 +44,5 @@ To submit a task for a specific user, send a POST request to /api/v1/task.
 
 ## Task Logs
 Task completions are logged in the task_logs.txt file in the following format:
+
 User: user1, Task: task123, Timestamp: 2024-09-11T17:55:59.766Z
